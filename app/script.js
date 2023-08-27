@@ -581,7 +581,7 @@ function displayContactsChunk(startIndex, endIndex) {
         card.classList.add('contact-card');
         card.innerHTML = `
             <h2>${contact.name}</h2>
-            <p>${contact.engName}</p>
+            <h3>${contact.engName}</h3>
             <p>Phone: ${contact.phone}</p>
             <button class="call-btn" onclick="callContact('${contact.phone}')">Call</button>
         `;
