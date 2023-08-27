@@ -42,7 +42,7 @@ header {
 }
 
 .call-btn:hover {
-    background-color: #0056b3;
+    background-color: black;
 }
 .center-btn{
     padding: 10px;
@@ -63,4 +63,35 @@ footer{
 .cradit a{
     color: white !important;
     text-decoration: none;
+}
+@media screen and (max-width: 600px){
+    header {
+        border-radius: 0px;
+    }
+    header h1{
+        font-size: 26px;
+    }
+    #searchInput {
+        padding: 3%;
+        width: 80%;
+        font-size: 16px;
+        border-radius: 15px;
+        border: none;
+    }
+    .contact-card {
+        margin: 30px 0px;
+
+    }
+    .MainListCon{
+        padding: 0 5%;
+    }
+    .call-btn {
+
+        padding: 2% 30%;
+        border-radius: 20px;
+        font-size: 22px;
+        display: flex;
+        display: block;
+        margin: 0 auto;
+    }
 }
