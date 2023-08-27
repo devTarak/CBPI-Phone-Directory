@@ -8,29 +8,59 @@ header {
     padding: 5%;
     text-align: center;
     margin: 0;
+    border-radius: 0px 0px 300px 300px;
 }
 
 #searchInput {
-    padding: 5px;
+    padding: 1%;
     width: 80%;
     font-size: 16px;
+    border-radius: 15px;
+    border: none;
 }
 
 .contact-card {
     border: 1px solid #ccc;
-    padding: 10px;
-    margin: 10px;
-    background-color: #fff;
+    padding: 10px 10px;
+    margin: 30px 10px;
+    background-color:white;
+    box-shadow:4px 8px rgba(85, 85, 85, 0.514);
+}
+.MainListCon{
+    margin: 3% 0%;
+    padding: 0 10%;
 }
 
 .call-btn {
     background-color: #007bff;
     color: #fff;
     border: none;
-    padding: 5px 10px;
+    padding: 1% 4%;
     cursor: pointer;
+    border-radius: 20px;
+    font-size: 18px;
 }
 
 .call-btn:hover {
     background-color: #0056b3;
+}
+.center-btn{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+}
+footer{
+    background-color: #0D1117;
+    color: white;
+    margin-top: 3%;
+    padding: 2% 1%;
+}
+.cradit{
+    display: flex;
+    justify-content: center;
+}
+.cradit a{
+    color: white !important;
+    text-decoration: none;
 }
