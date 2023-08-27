@@ -557,6 +557,7 @@ const loadMoreBtn = document.getElementById('loadMoreBtn');
 
 const contactsPerPage = 5;
 let currentPage = 1;
+let totalLoadedContacts = 0;
 let filteredContacts = [];
 
 function filterContacts() {
@@ -567,7 +568,12 @@ function filterContacts() {
             contact.engName.toLowerCase().includes(searchValue)
         );
     });
-    displayContactsChunk(0, contactsPerPage);
+    
+    filteredContacts.sort((a, b) => a.name.localeCompare(b.name));
+    
+    totalLoadedContacts = 0;
+    contactList.innerHTML = ''; // Clear existing list
+    displayContactsChunk(totalLoadedContacts, totalLoadedContacts + contactsPerPage);
     currentPage = 1;
     loadMoreBtn.disabled = false;
     loadMoreBtn.textContent = 'Load More';
@@ -575,22 +581,42 @@ function filterContacts() {
 
 function displayContactsChunk(startIndex, endIndex) {
     const contactsChunk = filteredContacts.slice(startIndex, endIndex);
-    contactList.innerHTML = '';
+
     contactsChunk.forEach(contact => {
         const card = document.createElement('div');
         card.classList.add('contact-card');
-        card.innerHTML = `
+
+        const contactInfo = document.createElement('div');
+        contactInfo.classList.add('contact-info');
+
+        contactInfo.innerHTML = `
             <h2>${contact.name}</h2>
-            <h3>${contact.engName}</h3>
             <p>Phone: ${contact.phone}</p>
-            <button class="call-btn" onclick="callContact('${contact.phone}')">Call</button>
         `;
+
+        const callButtonContainer = document.createElement('div');
+        callButtonContainer.classList.add('call-button-container');
+        
+        const callButton = document.createElement('button');
+        callButton.classList.add('call-btn');
+        callButton.onclick = () => callContact(contact.phone);
+
+        const callIcon = document.createElement('i');
+        callIcon.classList.add('fas', 'fa-phone'); 
+        
+        callButton.appendChild(callIcon);
+        callButtonContainer.appendChild(callButton);
+        card.appendChild(contactInfo);
+        card.appendChild(callButtonContainer);
+
         contactList.appendChild(card);
     });
+
+    totalLoadedContacts += contactsChunk.length;
 }
 
 function loadMoreContacts() {
-    const startIndex = currentPage * contactsPerPage;
+    const startIndex = totalLoadedContacts;
     const endIndex = startIndex + contactsPerPage;
 
     if (startIndex < filteredContacts.length) {
