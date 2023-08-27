@@ -602,7 +602,9 @@ function loadMoreContacts() {
 }
 
 function callContact(phoneNumber) {
-    alert(`Simulating a call to ${phoneNumber}`);
+    const telLink = document.createElement('a');
+    telLink.href = `tel:${phoneNumber}`;
+    telLink.click();
 }
 
 searchInput.addEventListener('input', filterContacts);
