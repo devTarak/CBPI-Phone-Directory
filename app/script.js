@@ -464,6 +464,7 @@ const contacts = [
         engName: "",
         phone: "01734092171",
     },
+    //Developed by Tarak
     {
         sl: 78,
         name: "এন্ড্রু ত্রিপুরা, সিকিউরিটি গার্ড",
