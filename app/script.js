@@ -548,7 +548,6 @@ const contacts = [
         engName: "",
         phone: "01884142046",
     },
-    // ... (your contact data)
 ];
 
 const searchInput = document.getElementById('searchInput');
