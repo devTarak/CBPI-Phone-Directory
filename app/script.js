@@ -569,8 +569,6 @@ function filterContacts() {
         );
     });
     
-    filteredContacts.sort((a, b) => a.name.localeCompare(b.name));
-    
     totalLoadedContacts = 0;
     contactList.innerHTML = ''; // Clear existing list
     displayContactsChunk(totalLoadedContacts, totalLoadedContacts + contactsPerPage);
