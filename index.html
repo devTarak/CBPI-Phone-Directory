@@ -13,18 +13,19 @@
       <title>CBPI Phone Directory</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <script>
-        if ('serviceWorker' in navigator) {
-          navigator.serviceWorker.register('/service-worker.js')
+    <link rel="stylesheet" type="text/css" href="my-pwa/css/styles.css">
+   <script>
+    if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.register('/my-pwa/service-worker.js')
             .then(registration => {
-              console.log('Service Worker registered with scope:', registration.scope);
+                console.log('Service Worker registered with scope:', registration.scope);
             })
             .catch(error => {
-              console.error('Service Worker registration failed:', error);
+                console.error('Service Worker registration failed:', error);
             });
-        }
-      </script>      
+    }
+</script>
+     
 </head>
 <body>
     <header>
@@ -39,6 +40,6 @@
             <p >Developed by <a href="https://devtarak.github.io/">Tarak Rahman</a></p>
         </div>
     </footer>
-    <script src="app/script.js"></script>
+    <script src="my-pwa/app/script.js"></script>
 </body>
 </html>
