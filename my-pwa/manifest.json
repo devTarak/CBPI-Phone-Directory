@@ -1,15 +1,15 @@
 {
-    "name": "CBPI Phone Directory",
-    "short_name": "CBPI Directory",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#2479C8",
-    "theme_color": "#2479C8",
-    "icons": [
-      {
-        "src": "my-pwa/img/favicon.png",
-        "sizes": "192x192",
-        "type": "image/png"
-      }
-    ]
-  }
+  "name": "CBPI Phone Directory",
+  "short_name": "CBPI Directory",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2479C8",
+  "theme_color": "#2479C8",
+  "icons": [
+    {
+      "src": "my-pwa/img/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
