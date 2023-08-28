@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #2479C8;
+    padding: 5%;
+    text-align: center;
+    margin: 0;
+    border-radius: 0px 0px 300px 300px;
+}
+
+#searchInput {
+    padding: 1%;
+    width: 80%;
+    font-size: 16px;
+    border-radius: 15px;
+    border: none;
+}
+
+.contact-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+/* Adjust the styles for the contact info container */
+.contact-info {
+    flex: 1; /* Occupy available space within the card */
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info h2,
+.contact-info p {
+    margin: 0;
+    padding: 5px 0px ;
+}
+.MainListCon{
+    margin: 3% 0%;
+    padding: 0 10%;
+}
+
+.call-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.call-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 12px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.call-btn:hover {
+    background-color: black;
+}
+
+.center-btn{
+    padding: 10px;
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+}
+footer{
+    background-color: #0D1117;
+    color: white;
+    margin-top: 3%;
+    padding: 2% 1%;
+}
+.cradit{
+    display: flex;
+    justify-content: center;
+}
+.cradit a{
+    color: white !important;
+    text-decoration: none;
+}
+@media screen and (max-width: 748px){
+    header {
+        border-radius: 0px;
+        padding: 3%;
+    }
+    header h1{
+        font-size: 28px;
+        text-align: left;
+        color: #FFF;
+    }
+    #searchInput {
+        padding: 3%;
+        width: 94%;
+        font-size: 16px;
+        border-radius: 15px;
+        border: none;
+        display: flex;
+    }
+    .contact-card{
+        margin: 5px;
+    }
+    .contact-info{
+        width: 85%;
+    }
+    .MainListCon{
+        padding: 0;
+    }
+    .call-button-container{
+        width: 15%;
+    }
+    .contact-info h2{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .contact-info p{
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
