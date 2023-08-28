@@ -637,5 +637,32 @@ function callContact(phoneNumber) {
 searchInput.addEventListener('input', filterContacts);
 loadMoreBtn.addEventListener('click', loadMoreContacts);
 
+// Show the Install PWA button when the beforeinstallprompt event is triggered
+let deferredPrompt;
+
+window.addEventListener('beforeinstallprompt', (event) => {
+    event.preventDefault();
+    deferredPrompt = event;
+    showInstallButton();
+});
+
+function showInstallButton() {
+    if (installButton) {
+        installButton.style.display = 'block';
+
+        installButton.addEventListener('click', () => {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        installButton.style.display = 'none';
+                    }
+                    deferredPrompt = null;
+                });
+            }
+        });
+    }
+}
+
 filterContacts();
 loadMoreContacts();
