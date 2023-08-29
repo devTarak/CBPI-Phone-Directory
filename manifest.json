@@ -2,8 +2,8 @@
     "name": "CBPI Phone Directory",
     "short_name": "CBPI Phone Directory",
     "start_url": ".",
-    "background_color": "#6dcdb1",
-    "theme_color": "#009578",
+    "background_color": "#2479C8",
+    "theme_color": "#2479c8a1",
     "display": "standalone",
     "icons": [
         {
