@@ -31,7 +31,7 @@ const contacts = [
     },
     {
         sl: 6,
-        name: "প্রকাশ কান্তি দে, ইনস্টাক্টর(টেক) কম্পিউটার",
+        name: "প্রভাশ কান্তি দে, ইনস্টাক্টর(টেক) কম্পিউটার",
         engName: "Provash kanti dey",
         phone: "01962823150",
     },
@@ -110,194 +110,194 @@ const contacts = [
     {
         sl: 19,
         name: "এ.এস.এম.মাঈন উদ্দিন খান, ইনস্ট্রাক্টর(সিভিল)",
-        engName: "",
+        engName: "A.S.M. Maine Uddin Khan",
         phone: "01717025920",
     },
     {
         sl: 20,
         name: "রকি চৌধুরী, ইনস্ট্রাক্টর(আরএসি)",
-        engName: "",
+        engName: "Rocky Chowdhury",
         phone: "01814784600",
     },
     {
         sl: 21,
         name: "আরিফুল করিম, ইনস্ট্রাক্টর(ফুড)",
-        engName: "",
+        engName: "Ariful karim",
         phone: "01925244234",
     },
     {
         sl: 22,
-        name: "কাজী সারোয়ার, ইনস্টা(ফু",
-        engName: "",
+        name: "কাজী সারোয়ার, ইনস্টা(ফুড)",
+        engName: "Kazi Sarowar",
         phone: "01723789744",
     },
     {
         sl: 23,
         name: "আলমগীর মিয়া, ইনস্ট্রাক্টর(সিভিল)",
-        engName: "",
+        engName: "Alomgir Miya",
         phone: "01673132628",
     },
     {
         sl: 24,
         name: "মোঃ ফাইজুল ইসলাম, ইনস্ট্রাক্টর(সিভিল)",
-        engName: "",
+        engName: "MD Faijul Islam",
         phone: "01911272347",
     },
     {
         sl: 25,
         name: "মোঃ মাসুদ রানা, ইনস্ট্রাক্টর(কম্পিউটার)",
-        engName: "",
+        engName: "MD. Masud Rana",
         phone: "01719508316",
     },
     {
         sl: 26,
         name: "মোঃ এমদাদুল হক, ইনস্ট্রাক্টর(নন - টেক)",
-        engName: "",
+        engName: "MD. Amdadul Haque",
         phone: "01734048169",
     },
     {
         sl: 27,
         name: "মোঃ আব্দুল আলীম, ইনস্ট্রাক্টর(নন - টেক)",
-        engName: "",
+        engName: "Md. Abdul Alim",
         phone: "01734598154",
     },
     {
         sl: 28,
         name: "আহমেদ রফিক আজিজ, ইনস্ট্রাক্টর(কম্পিউটার)",
-        engName: "",
+        engName: "Ahmed Rafiq Aziz",
         phone: "01721153960",
     },
     // Page2
     {
         sl: 29,
         name: "কাজী মোঃ ফখরুল আলম, জুনিয়র ইনস্ট্রাক্টর (আরএসি)",
-        engName: "",
+        engName: "Kazi Mohamod Fokhrul Alom",
         phone: "01820191707"
     },
     {
         sl: 30,
         name: "মেহেদী হাসান, জুনিয়র ইনস্ট্রাক্টর (ফুড)",
-        engName: "",
+        engName: "Mehedi hasan",
         phone: "01840013761"
     },
     {
         sl: 31,
         name: "মোঃ নেছার উদ্দিন, জুনিয়র ইনস্ট্রাক্টর (ফুড)",
-        engName: "",
+        engName: "MD. Neser  Uddin",
         phone: "01828700803"
     },
     {
         sl: 32,
         name: "শরিফুল ইসলাম, জুনিয়র ইনস্ট্রাক্টর (কম্পিউটার)",
-        engName: "",
+        engName: " MD. Soriful Islam",
         phone: "01723906133"
     },
     {
         sl: 33,
-        name: "শরিফুল ইসলাম, জুনিয়র ইনস্টার্কের (কম্পিউটার)",
-        engName: "",
+        name: "শরিফুল ইসলাম, জুনিয়র ইনস্ট্রাক্টর (কম্পিউটার)",
+        engName: "Md. Soriful Islam",
         phone: "01739941273"
     },
     {
         sl: 34,
         name: "মোঃ আবু জাহিদ, জুনিয়র ইনস্টাধর (আরএসি)",
-        engName: "",
+        engName: "Md. Abu Jahid",
         phone: "01723079651"
     },
     {
         sl: 35,
         name: "মোঃ মামুনুর রশীদ, জুনিয়র ইনস্ট্রাক্টর (নন-টেক)",
-        engName: "",
+        engName: "Md. Mamunur Rasid",
         phone: "01737322532"
     },
     {
         sl: 36,
         name: "মোঃ আব্দুল মতিন, জুনিয়র ইনস্ট্রাক্টর (নন-টেক)",
-        engName: "",
+        engName: "Md. Abdul Motin",
         phone: "01737191044"
     },
     {
         sl: 37,
         name: "মোঃ সাইফুল ইসলাম, ক্রাফট ইনস্ট্রাক্টর (টিআর) সিভিল",
-        engName: "",
+        engName: "Md. Saiful Islam",
         phone: "01816382217"
     },
     {
         sl: 38,
         name: "মোঃ মনিরুজ্জামান, ক্রাফট ইনস্ট্যান্টর (সপ) আরএসি",
-        engName: "",
+        engName: "Md. Moniurjaman",
         phone: "01756434228"
     },
     {
         sl: 39,
         name: "মোশারফ হোছাইন, ল্যাব সহকারী",
-        engName: "",
+        engName: "Mosaraf Hossin",
         phone: "01812368299"
     },
     {
         sl: 40,
         name: "মোঃ মহসিন, ক্রাফট ইনস্ট্রাক্টর (টিআর) সিভিল",
-        engName: "",
+        engName: "Md. Mohsin",
         phone: "01812023499"
     },
     {
         sl: 41,
         name: "প্রলয় কান্তি সুশীল, ক্রাফট ইনস্ট্রাক্টর (সপ) সিভিল",
-        engName: "",
+        engName: "Proloi kanti Susil",
         phone: "01306276981"
     },
     {
         sl: 42,
         name: "মোঃ আবু হানিফ, ক্রাফট ইনস্ট্রাক্টর (সপ) সিভিল",
-        engName: "",
+        engName: "Md. Abu Hanif",
         phone: "01820050020"
     },
     {
         sl: 43,
         name: "আনিসুজ্জামান রোমান, ক্রাফট ইনস্ট্রাক্টর (সপ) সিভিল",
-        engName: "",
+        engName: "Anisujjaman Roman",
         phone: "01722930979"
     },
     {
         sl: 44,
         name: "মোঃ জাহাঙ্গীর শাহ তালুকদার, ক্রাফট ইনস্ট্রাক্টর (সেপ) সিভিল",
-        engName: "",
+        engName: "Md. Jahangir Sha Talukdar",
         phone: "01853048330"
     },
     {
         sl: 45,
         name: "আল হাসনাত রেজায়ে রাত্রী, ক্রাফট ইনস্ট্রাক্টর (সপ) কম্পিউটার",
-        engName: "",
+        engName: "Al Hasnat Rejaye Ratri",
         phone: "01521485017"
     },
     {
         sl: 46,
         name: "রিপন কান্তি সুশীল, ক্রাফট ইনস্ট্রাক্টর (সপ) কম্পিউটার",
-        engName: "",
+        engName: "Ripon Kanti Susil",
         phone: "01955033521"
     },
     {
         sl: 47,
         name: "লোকনাথ চন্দ্র গোলদার, ক্রাফট ইনস্ট্রাক্টর (সপ) কম্পিউটার",
-        engName: "",
+        engName: "Loknat Chondro Goldar",
         phone: "01918675924"
     },
     {
         sl: 48,
         name: "মোঃ ইফতেখার হোসেন, ক্রাফট ইনস্টাক্টর (সপ) কম্পিউটার",
-        engName: "",
+        engName: "Md. Iftekhar Hossin",
         phone: "01674475775"
     },
     {
         sl: 49,
         name: "শুভ চৌধুরী, ক্রাফট ইনস্ট্রাক্টর (সপ) আরএসি",
-        engName: "",
+        engName: "Shovo Chudhuri",
         phone: "01830108278"
     },
     {
         sl: 50,
         name: "মোঃ আব্দুল মান্নান, ক্রাফট ইনস্ট্রাক্টর (সপ) আরএসি)",
-        engName: "",
+        engName: "Md. Abdul Manan",
         phone: "01521408861"
     },
     {
